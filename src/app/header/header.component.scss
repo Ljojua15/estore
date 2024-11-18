@@ -1,15 +1,30 @@
 .header{
   width: 100%;
   box-shadow: 5px 5px 20px grey;
-  &__row{
+  display: flex;
+    &__search{
+      width: 70%;
+    }
     &__brand{
       color: antiquewhite;
       margin-left: 2%;
       padding: 0.8em;
-      width: 5%;
+      width: 10%;
       cursor: pointer;
       text-align: center;
     }
+    &__search-bar{
+      width: 80%;
+      height: 2.5rem;
+      border: none;
+      display: inline;
+    }
+    &__search-btn{
+      width: 20%;
+      height: 2.5rem;
+      background-color: red;
+      border: none;
+    }
+
   }
-}
 
