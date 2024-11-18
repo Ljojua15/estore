@@ -1,9 +1,11 @@
+$search-bar-border: none;
+
 .header{
   width: 100%;
   box-shadow: 5px 5px 20px grey;
   display: flex;
     &__search{
-      width: 70%;
+      width: 80%;
     }
     &__brand{
       color: antiquewhite;
@@ -13,17 +15,24 @@
       cursor: pointer;
       text-align: center;
     }
+    &__search-drop{
+      min-width: 30px;
+      width: 10%;
+      height: 2.6rem;
+      border:$search-bar-border;
+      font-weight: 600;
+    }
     &__search-bar{
-      width: 90%;
+      width: 80%;
       height: 2.5rem;
-      border: none;
+      border: $search-bar-border;
       display: inline;
     }
     &__search-btn{
       width: 10%;
-      height: 2.6rem;
+      height: 2.7rem;
       background-color: red;
-      border: none;
+      border: $search-bar-border;
     }
 
   }
