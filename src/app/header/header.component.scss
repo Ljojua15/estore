@@ -34,6 +34,25 @@ $search-bar-border: none;
       background-color: red;
       border: $search-bar-border;
     }
+    &__login{
+      color: white;
+      display: inline-block;
+      width: 20%;
+      text-align: right;
+      margin: 1.7em 0.2em 0 0;
+      h5{
+        display: inline-block;
+        a{
+          text-decoration: none;
+          color: aliceblue;
+        }
+      }
+      &--user-icon{
+        margin-right: 0.4em;
+        padding: 0.2em;
+        font-size: 1.3em;
+      }
+    }
 
   }
 
